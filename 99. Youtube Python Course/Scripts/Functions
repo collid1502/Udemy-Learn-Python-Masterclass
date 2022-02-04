@@ -1,0 +1,22 @@
+########################################################
+####                  Functions                     ####
+########################################################
+
+# Functions are basically a way of taking multiple lines of code & then performs that specfic task
+# So to then do that task, you can just call the function
+
+# Create a function to run a task that says hi to the user
+
+# def is the keyword for Python to recognise a function (also note, any code inside the function needs to follow the indent rule)
+def say_hi():
+    print("Hello User") ;
+
+
+# Now we need to "Call" the function in order to execute the code
+say_hi() ;
+
+# Now, we can make functions even more powerful by passing them information (this is called parameters) ;
+def say_hi(name, age):
+    print("Hello " + name + ", You Are " + str(age)) ;
+
+say_hi("Mike", 35) ;  # So we are passing in the information

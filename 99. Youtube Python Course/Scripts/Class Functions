@@ -1,0 +1,27 @@
+#####################################################################
+####                     Class Functions                         ####
+#####################################################################
+
+
+class Student:
+
+    def __init__(self, name, major, gpa,
+                 is_on_probation):  # This is an initialse function to map out what info we should have on the student data type
+        self.name = name
+        self.major = major
+        self.gpa = gpa
+        self.is_on_probation = is_on_probation
+
+student1 = Student("Oscar", "Accounting", 3.1, False)
+student1 = Student("Phyllis", "Business", 3.8, False)
+
+    def on_honor_roll(self):
+        if self.gpa >= 3.5:
+            return True
+        else:
+            return False
+
+print(studnet2.on_honor_roll()) ; # returns if on honor roll or not
+
+
+
